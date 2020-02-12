@@ -29,7 +29,7 @@ set softtabstop=2 " tab转为2个空格
 " 行号
 set number
 set relativenumber
-set cursorline
+"set cursorline
 set textwidth=80
 set wrap " 自动折行
 set linebreak  " 遇到指定符号换行
@@ -49,18 +49,18 @@ set smartcase
 "==============================================
 "	编辑
 "==============================================
-set spell spelllang=en_us " 拼写检查
+"set spell spelllang=en_us " 拼写检查
 set nobackup " 不创建备份文件
 set noswapfile 
 set undofile " 保留撤销历史
 
 set autoread 
 
-set listchars=tab:>>■,trail:■
-set list
+"set listchars=tab:>>■,trail:■
+"set list
 
-set wildmenu
-set wildmode=longest:list,full
+"set wildmenu
+"set wildmode=longest:list,full
 
 
 
